@@ -1,0 +1,16 @@
+#/usr/bin/bash
+
+# Delete database
+rm db.sqlite3
+# Delete migrations
+rm Apps/**/migrations/00**
+# Delete uploads
+rm -r ./uploads/profile/*
+rm -r ./uploads/vehicule/*
+rm -r ./uploads/request/*
+
+#
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser --email='dax99993@gmail.com' --first_name='Daniel' --last_name='Banuelos Torres'

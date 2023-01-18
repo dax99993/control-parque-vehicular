@@ -1,0 +1,8 @@
+db.sqlite3
+__pycache__
+Pipfile
+Pipfile.lock
+**/media/profile
+**/media/vehicule
+**/media/request
+00*.py
