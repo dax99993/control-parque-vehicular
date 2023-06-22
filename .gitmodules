@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/dax99993/control-parque-vehicular-backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/dax99993/control-parque-vehicular-frontend
+[submodule "common"]
+	path = common
+	url = https://github.com/dax99993/control-parque-vehicular-common
